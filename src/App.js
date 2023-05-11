@@ -1,10 +1,9 @@
 import './App.css';
+import Home from "./components/Home";
 
 function App() {
   return (
-      <h1 className="text-3xl font-bold ">
-        Tailoring Web Project
-      </h1>
+      <Home />
   );
 }
 
