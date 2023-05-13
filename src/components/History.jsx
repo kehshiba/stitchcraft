@@ -49,12 +49,12 @@ return(
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Handcrafted by Humans. Automated by Machines .</h2>
-        <p className="mt-6 text-lg leading-8 text-gray-300">
+        <p className="mt-6 text-lg leading-8 text-gray-50">
         Dive deep into our rich cultural and technical history.
         </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-violet-300 sm:grid-cols-2 md:flex lg:gap-x-10">
     {links.map((link) => (
         <a key={link.name} href={link.href}>
     {link.name} <span aria-hidden="true">&rarr;</span>
@@ -72,30 +72,42 @@ return(
         </div>
         </div>
         </div>
-        <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+        <section className="mx-auto max-w-7xl px-6 lg:px-10">
+            <div className="relative isolate px-6 pt-14 lg:px-8">
+                <div
+                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                    aria-hidden="true"
+                >
+                    <div
+                        className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#d8b4fe] to-[#3b0764] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                        style={{
+                            clipPath:
+                                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                        }}
+                    />
+                </div>
+                    <div className="w-full px-4 lg:w-1/2 xl:w-1/2">
+                        <div className="mt-10 lg:mt-20">
 
-                    <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                        <div className="mt-10 lg:mt-0">
-          <span className="text-primary mb-2 block text-lg font-semibold">
-            Why Choose Us
-          </span>
-                            <h2 className="text-dark mb-8 text-3xl font-bold sm:text-4xl">
-                                About content goes here
+                            <h2 className="text-dark mb-8 text-3xl font-bold sm:text-5xl">
+                                About StitchCraft
                             </h2>
-                            <p className="text-body-color mb-8 text-base">
-                               Some large paragraph about how we are changing the industry
+                            <p className="text-body-color mb-10 text-base">
+                                StitchCraft is not just an ordinary tailoring app; it is a revolution in the world of fashion. We bring together the finest elements of traditional craftsmanship and cutting-edge technology to create a seamless and convenient experience for our customers. Our mission is simple yet profound: to connect local tailors with discerning customers in a way that is as effortless as ordering food through Swiggy.
+
+                                We deeply value the artistry and skill of tailoring, passed down through generations of artisans. We are committed to preserving this rich heritage by providing a platform for talented local tailors to showcase their expertise and craftsmanship. Through our app, we empower these skilled artisans, giving them the opportunity to reach a wider audience and flourish in their trade.
                             </p>
                             <p className="text-body-color mb-12 text-base">
-                                Rest long paragraphs about how we are changing the industry
-                            </p>
-                            <a
-                                href="javascript:void(0)"
-                                className="bg-primary inline-flex items-center justify-center rounded-lg py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
-                            >
-                                Get Started
-                            </a>
+                                Personalized fashion is the heart and soul of StitchCraft. We understand that every individual has their own unique style and preferences, and we believe in bringing these ideas to life. Our app allows you to connect with local tailors who not only understand your vision but also have the skill and passion to turn it into reality. Whether it's a custom-made suit, a traditional outfit, or a one-of-a-kind ensemble, StitchCraft ensures that your fashion dreams become a tangible and exquisite reality.
+
+                                We are not just a platform; we are a community that supports and celebrates local businesses. By choosing StitchCraft, you are making a conscious decision to contribute to your local economy and uplift talented tailors in your community. Through our app, you can discover hidden gems in your neighborhood, support small-scale entrepreneurs, and witness the magic that happens when traditional craftsmanship meets modern innovation.
+
+                                Join us on this transformative journey as we redefine the way tailoring is experienced and enjoyed. StitchCraft is not just an app; it's a movement that celebrates the fusion of tradition and technology, creating a world where personalized fashion is accessible to all. Embrace your style, embrace local talent, and let StitchCraft be your guide to sartorial excellence.                            </p>
+
                         </div>
                     </div>
+            </div>
+
         </section>
 
 

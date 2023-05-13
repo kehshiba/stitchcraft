@@ -5,8 +5,8 @@ import {useState} from "react";
 
 const navigation = [
     { name: 'History', href: '/history' },
-    { name: 'Pricing', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Pricing', href: '/pricing' },
+    { name: 'Schedule', href: '/schedule' },
 ]
 export default function Nav(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)

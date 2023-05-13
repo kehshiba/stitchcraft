@@ -4,6 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+.firebase
+.firebase.json
+.firebaserc
+/src/dbConnect.jsx
+.idea
 
 # testing
 /coverage
